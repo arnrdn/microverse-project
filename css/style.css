@@ -2,7 +2,7 @@
   clear:both;
 }
 body{
-  position: absolute;
+  
 
 }
 
@@ -43,11 +43,18 @@ body{
 }
 
 .email-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
 
-  background:blue;
-  text-align: center;
-  width:800px;
-  margin:100px auto;
+#form {
+  display: flex;
+  flex-direction: column;
 }
 
 .
